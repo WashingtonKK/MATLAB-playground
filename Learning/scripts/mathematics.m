@@ -1,6 +1,6 @@
-y = idivide (int32(5), int32(3))
-x = idivide (int32(5), int32(3), 'ceil')
-a = mod (5,3)
+y = idivide (int32(5), int32(3));
+x = idivide (int32(5), int32(3), 'ceil');
+a = mod (5,3);
 plus (5, 6)
 minus (5,1)
 %Unary function, negates
@@ -18,20 +18,20 @@ A = 5;
 B = 3;
 
 %Checking for equality
-A == B
+A == B;
 
 %Not equal to
-A ~= B
+A ~= B;
 
 %%Complex numbers
 %The result contains imaginary numbers
-[1,2; 3,4]^(0.5)
+[1,2; 3,4]^(0.5);
 
 
 %%Exponents
 
-ah = expm([1,2; 3,4])
+ah = expm([1,2; 3,4]);
 
 %For element by element exponents we use
-ai = exp([1,2; 5,6])
+ai = exp([1,2; 5,6]);
 
