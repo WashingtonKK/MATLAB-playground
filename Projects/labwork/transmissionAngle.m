@@ -5,6 +5,6 @@ function [Angl] = transmissionAngle(crank, coupler, follower, fixed, input)
     %     b2 = b^2;
     %     c2 = c^2;
     %     d2 = d^2;
-    Angl = acosd( ((coupler^2) + (follower^2) - (crank^2) - (fixed^2) + (2*crank*fixed*(cosd(input))) ) / (2*coupler*follower) );
+    Angl = acosd( ((coupler^2)+(follower^2)-(crank^2)-(fixed^2)+(2*crank*fixed*(cosd(input))) )/(2*coupler*follower) );
 end
 

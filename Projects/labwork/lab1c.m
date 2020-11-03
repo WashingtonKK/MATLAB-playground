@@ -19,6 +19,8 @@ k2 = K(2,1);
 k3 = K(3,1);
 inpRange = (15: 5: 165)';
 outRange = rel(inpRange);
+
+%%
 %%Computing the structural error
 e = k1*(cosd(outRange)) - k2*(cosd(inpRange)) + k3 - cosd(inpRange - outRange);
 
